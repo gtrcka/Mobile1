@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblLogin"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:text="@string/lblLogin"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblPrihlasitSe"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:text="@string/lblPrihlasitSe"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lblUserLogin"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:hint="@string/hint_user"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lblPassLogin"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="@string/hint_pass"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/btnLogin" />
+
+        <Button
+            android:id="@+id/btoBackLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_500"
+            android:backgroundTintMode="add"
+            android:onClick="backToRegister"
+            android:text="@string/btnBackLogin" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

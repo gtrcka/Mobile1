@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mobile1</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="inputName">Nombre</string>
+    <string name="inputSurname">Apellido</string>
+    <string name="hint_mail">Correo Electrónico</string>
+    <string name="hint_pass2">Confirmar Contraseña</string>
+    <string name="hint_latitud">Latitud</string>
+    <string name="hint_longitud">Longitud</string>
+    <string name="lblLogin">Iniciar Sesión</string>
+    <string name="lblPrihlasitSe">Přihlásit se</string>
+    <string name="btnBackLogin">Volver</string>
+    <string name="lblLesson1">Lección 1</string>
+    <string name="lblSaludosPreguntas">Saludos y preguntas básicas</string>
+</resources>
